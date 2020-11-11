@@ -83,6 +83,10 @@ public class CategoriesTab extends PageObject{
         }
 
     }
+/**
+ * This method checks if pagination on the Category Tab is correct. So basically it checks e.g. for 15 elements overall if 
+ * you choose 10 elements to display, will there be 2 pages. For 5 elements to display, 3 pages and so on 
+ **/        
     public void checkPagination() {
 
         int numberOfPages;
